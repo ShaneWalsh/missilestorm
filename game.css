@@ -1,0 +1,106 @@
+
+@font-face {
+//font-family: 'Supertext 01';
+//font-style: normal;
+//font-weight: normal;
+//src: local('Supertext 01'), url('./bin/css/ST01R.woff') format('woff');
+}
+
+.noDisplay{
+    display:none !important;
+}
+
+.main-menu{
+	//width: 250px;
+	left:200px;
+	position: relative;
+}
+
+
+.overflow-panel{
+    width: 355px;
+    height: 440px;
+    overflow-y: scroll;
+}
+.overflow-inner-panel{
+    height: 120px;
+    overflow-y: scroll;
+}
+
+.audio-menu, .controls-menu{
+	//width: 250px;
+	//left: 35px;
+	margin-right:5px;
+	margin-left:5px;
+	padding: 5px;
+	left:335px;
+	position: relative;
+}
+
+#menusHolder{
+	position: absolute;
+	z-index: 100;
+}
+
+.top-buffer { 
+	margin-top:20px;
+}
+
+
+
+#gcc{
+    top:20px;
+    left:20px;
+    bottom:20px;
+    right:20px;
+    overflow: hidden;
+}
+
+#canvasTiles{
+
+background:#ffffff;
+margin:1px auto 0px;
+}
+#canvasHighlight{
+margin:-512px auto 0px;
+}
+#canvasNPC{
+margin:-512px auto 0px;
+}
+#canvasAnimation{
+margin:-512px auto 0px;
+cursor: crosshair;
+}
+
+body{
+	//font-family:'Supertext 01' !important;
+	//font-weight:normal;
+	//font-size:42px";
+	margin: 0px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-color:#34fa08 !important;
+    color: #34fa08 !important;
+    background-color: #34fa08 !important;
+}
+
+.sliderClass .slider-selection {
+	background: #BABABA;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
